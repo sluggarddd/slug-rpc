@@ -26,17 +26,17 @@
             <version>4.0.24.Final</version>
         </dependency>
         <!-- RPC Common
-        <dependency>
-            <groupId>com.itjoyee.rpc</groupId>
-            <artifactId>rpc-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.itjoyee.rpc</groupId>
-            <artifactId>rpc-zookeeper-registry</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
         -->
+        <dependency>
+            <groupId>com.slug</groupId>
+            <artifactId>slug-rpc-common</artifactId>
+            <version>0.01</version>
+        </dependency>
+        <dependency>
+            <groupId>com.slug</groupId>
+            <artifactId>slug-rpc-registry</artifactId>
+            <version>0.01</version>
+        </dependency>
     </dependencies>
 
 </project>

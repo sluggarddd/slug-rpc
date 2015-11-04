@@ -12,4 +12,44 @@
     <artifactId>slug-rpc-server</artifactId>
 
 
+    <dependencies>
+        <!-- SLF4J -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>3.2.12.RELEASE</version>
+        </dependency>
+        <!-- Apache Commons Collections -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.0</version>
+        </dependency>
+        <!-- CGLib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slug</groupId>
+            <artifactId>slug-rpc-common</artifactId>
+            <version>0.01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slug</groupId>
+            <artifactId>slug-rpc-registry</artifactId>
+            <version>0.01</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
