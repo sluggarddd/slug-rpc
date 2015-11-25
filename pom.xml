@@ -13,7 +13,7 @@
         <module>slug-rpc-common</module>
         <module>slug-rpc-registry</module>
         <module>slug-rpc-server</module>
-        <module>slug-sample</module>
+        <module>slug-rpc-sample</module>
     </modules>
 
 
